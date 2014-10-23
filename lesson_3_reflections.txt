@@ -9,4 +9,14 @@ update a single version of the project in the repositry with their indiviudual c
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-The main idea is that you have control over what information is stored in each location. This gives you the ability to change it when it makes sense to do so. If you have automatic updates, updates that are incomplete or from other people working on the project could be uploaded at any time, potentially harming what you might be working on. Manual updates provide you with the control to make these happen when it makes sense to what you are trying to accomplish. 
+The main idea is that you have control over what information is stored in each location. This gives you the ability to change it 
+when it makes sense to do so. If you have automatic updates, updates that are incomplete or from other people working on the 
+project could be uploaded at any time, potentially harming what you might be working on. Manual updates provide you with the 
+control to make these happen when it makes sense to what you are trying to accomplish. 
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A branch is where you have taken a file and saved changes that differ from the direction of the master file. It is where you would
+build a different version of a similar thing. A clone is where you make a copy of a repository to another location. This can occur
+locally on a machine, locally across machines, or via the web. A fork is a specific type of clone. It is a clone that occurs when 
+you copy another repository into your git hub account. 
