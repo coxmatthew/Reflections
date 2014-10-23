@@ -5,3 +5,8 @@ so that if anything happens to the local file you still have all of your work av
 useful if you work on multiple workstations. It provides you with the ability to update your work across different devices
 and from different locations. And finally, a remote repository can be useful for group colaboration, as it allows teamembers to
 update a single version of the project in the repositry with their indiviudual changes, all from their separate locations. 
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+The main idea is that you have control over what information is stored in each location. This gives you the ability to change it when it makes sense to do so. If you have automatic updates, updates that are incomplete or from other people working on the project could be uploaded at any time, potentially harming what you might be working on. Manual updates provide you with the control to make these happen when it makes sense to what you are trying to accomplish. 

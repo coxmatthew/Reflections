@@ -1,4 +1,5 @@
 
+
 What happens when you initialize a repository? Why do you need to do it?
 
 Initializing a respository is the process of taking an existing directory and making it into a git style version control repository. When you initialize a repository, it allows that directory to store information about previous versions of files stored in that directory, or in other words, it contains the information about previous commits that have been made for particular files or groups of flies. You need to initialize a repository to use git and version control. Initializing a repository gives you the functional virtual space to practice version control with your files.  
@@ -7,3 +8,23 @@ Initializing a respository is the process of taking an existing directory and ma
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 All three areas can be thought of as distinct locations where specific things happen and are stored. The working directory is where your current changes to a file are stored. It is where a file is saved to when you click save. Files can be moved from the working directory to a repositry if you want to save a snap shot of what that directory and its files looked like at a particular point in time. A repository is essentially a directory that is connected to the working directory and which stores older versions of the files contained in the working directory so that you can look back through time at what existed in that working directory at different times. The staging area is the space between the working directory and the repositry. It is where files are temporarily placed before the before being added to the repository. It allows for you to make back up copies of older versions of files in the working directory without having back up files that weren't recently changed in the directory. This allows for better usegage of storage space. 
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can compare what you have placed in the staging area with what is already in the repository, or with what you have in the working directory, to make sure that you are committing after one logical change.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are helpful when you want to have two different versions of your file simultaneiously. For instances, if you want to have a standard demo version that you know will work well but you also want to have a version with a new experimental feature, you will need to have two different versions of your file at the same time. One of these files will be the version that runs well and the other will be a version with the new feature. Branches help in that each different version of the file would be considered a branch as they come from the same root file but have diverged during the history of the file changing.  
+
+
+How do the diagrams help you visualize the branch structure?
+
+Because a diagram allows you to picture visually what exists and occurs electronicly. 
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together essentially smashes them together so that the new branch is the two old ones combined. We represent it in the diagram in a certain way so that we can visually see the progression of the seperate changes and then how they came together. 
